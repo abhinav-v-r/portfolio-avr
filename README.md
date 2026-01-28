@@ -11,7 +11,7 @@ A modern, minimalist portfolio template built with Astro and Tailwind CSS.
 
 ## Preview
 
-To view a live preview of the site, [click here](https://ryanfitzgerald.github.io/devportfolio/).
+To view a live preview of the site, [click here](abhinavvr.vercel.app).
 
 ## Built With
 
