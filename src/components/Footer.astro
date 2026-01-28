@@ -22,7 +22,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
           <a
             href={`mailto:${siteConfig.social.email}`}
             aria-label="Email"
-            class="text-gray-600 transition-colors duration-300 hover:text-[var(--accent-color)]"
+            class="text-gray-600 transition-all duration-300 hover:text-[var(--accent-color)] hover:scale-125 hover:-translate-y-1 transform"
             style={`--accent-color: ${siteConfig.accentColor}`}
           >
             <svg
@@ -49,7 +49,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
-            class="text-gray-600 transition-colors duration-300 hover:text-[var(--accent-color)]"
+            class="text-gray-600 transition-all duration-300 hover:text-[var(--accent-color)] hover:scale-125 hover:-translate-y-1 transform"
             style={`--accent-color: ${siteConfig.accentColor}`}
           >
             <svg
@@ -75,7 +75,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Twitter"
-            class="text-gray-600 transition-colors duration-300 hover:text-[var(--accent-color)]"
+            class="text-gray-600 transition-all duration-300 hover:text-[var(--accent-color)] hover:scale-125 hover:-translate-y-1 transform"
             style={`--accent-color: ${siteConfig.accentColor}`}
           >
             <svg
@@ -95,11 +95,39 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
             >
           </a>
           <a
+            href={siteConfig.social.instagram}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+            class="text-gray-600 transition-all duration-300 hover:text-[var(--accent-color)] hover:scale-125 hover:-translate-y-1 transform"
+            style={`--accent-color: ${siteConfig.accentColor}`}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="h-6 w-6"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path
+                d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"
+              ></path>
+              <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path>
+              <path d="M16.5 7.5v.01"></path>
+            </svg>
+          </a>
+          <a
             href={siteConfig.social.github}
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
-            class="text-gray-600 transition-colors duration-300 hover:text-[var(--accent-color)]"
+            class="text-gray-600 transition-all duration-300 hover:text-[var(--accent-color)] hover:scale-125 hover:-translate-y-1 transform"
             style={`--accent-color: ${siteConfig.accentColor}`}
           >
             <svg
@@ -159,6 +187,9 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
             )
           }
         </nav>
+        <br />
+        <br />
+        <br />
         <p class="text-sm text-gray-500">
           © {new Date().getFullYear()}
           {siteConfig.name}. All rights reserved.
