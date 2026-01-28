@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Abhinav V R",
-  title: "Computer Science Sophomore",
+  title: "Computer Science Engineering Sophomore",
   description: "Portfolio website of Abhinav V R",
   accentColor: "#1d4ed8",
   social: {
@@ -10,46 +10,70 @@ export const siteConfig = {
     github: "https://github.com/abhinav-v-r",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "A Computer Science Engineerng student and AI/ML Developer with a strong interest in building reliable,data-driven solutions. Alongside my technical interests, I am actively involved in leading student communities and clubs, while also contributing to social service and volunteering initiatives,combining technical growth with leadership and social responsibility.",
+  skills: ["Python", "TensorFlow", "Keras", "C", "Java", "Designing", "Web Development", "AI/ML", "Problem Solving", "Object-Oriented Programming","Leadership", "Team Management"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Dermal Scan - AI Skin Aging Detection",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "An AI-powered application for analyzing facial skin aging signs using EfficientNetB0 deep learning model.",
+      link: "https://github.com/abhinav-v-r/Dermal-Scan",
+      skills: ["AI/ML", "Deep Learning","Python","TensorFlow"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Kaaval AI - Cyber Fraud Prevention and Digital Safety Application",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "An all-in-one AI-powered digital safety ecosystem designed to protect, educate, and empower users in the digital age, combiningreal-time threat detection with interactive learning to build long-term digital resilience.",
+      link: "https://github.com/abhinav-v-r/Kaaval-AI-Intellipat",
+      skills: ["React", "Node.js", "Next.js","Vite", "Manifest V3"],
     },
     {
-      name: "ExtensionKit",
+      name: "Netflix Clone",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A fully responsive web application developed using HTML, CSS, and JavaScript, designed to replicate the core functionalities and visual appeal of Netflix.",
+      link: "https://github.com/abhinav-v-r/Netflix-Clone",
+      skills: ["HTML", "CSS", "JavaScript"],
+    },
+     {
+      name: "Blood and Organ Donation Management System",
+      description:
+        "A comprehensive Java desktop application for managing blood and organ donations using Java Swing and MySQL.",
+      link: "https://github.com/abhinav-v-r/Blood-and-Organ-Donation-Management",
+      skills: ["Java", "MySQL", "Maven","Swing"],
+    },
+    {
+      name: "Moon Phase Tracker Web App",
+      description:
+        "A simple and interactive web application that tracks the current moon phase and displays the next 7 days of moon phases with images and labels.",
+      link: "https://github.com/abhinav-v-r/moon-phase-tracker",
+      skills: ["HTML", "CSS", "JavaScript","SunCalc"],
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "TinkerHub",
+      title: "Learning Coordinator",
+      dateRange: "Jul 2025 - Present",
       bullets: [
         "Led development of microservices architecture serving 1M+ users",
         "Reduced API response times by 40% through optimization",
         "Mentored team of 5 junior developers",
       ],
     },
+        {
+      company: "Infosys Sprigboard",
+      title: "Intern",
+      dateRange: "Aug 2025 - Oct 2025",
+      bullets: [
+        "Developed responsive web applications for 20+ clients",
+        "Improved site performance scores by 35% on average",
+        "Introduced modern JavaScript frameworks to legacy codebases",
+      ],
+    },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "μLearn",
+      title: "Campus Lead",
+      dateRange: "Aug 2025 - Present",
       bullets: [
         "Built and launched MVP product from scratch using React and Node.js",
         "Implemented CI/CD pipeline reducing deployment time by 60%",
@@ -57,9 +81,9 @@ export const siteConfig = {
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "Student Association of Computer Science",
+      title: "Codify Head",
+      dateRange: "Aug 2025 - Present",
       bullets: [
         "Developed responsive web applications for 20+ clients",
         "Improved site performance scores by 35% on average",
