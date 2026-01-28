@@ -150,12 +150,12 @@ import { siteConfig } from "../config";
           </p>
           {
             siteConfig.social?.resume && (
-              <div class="mt-8 sm:mt-10 animate-fade-in animation-delay-600 flex justify-center md:justify-start">
+              <div class="mt-8 sm:mt-10 animate-fade-in animation-delay-600 flex justify-center md:justify-start relative z-10">
                 <a
                   href={siteConfig.social.resume}
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="flex items-center justify-center w-full sm:w-max px-10 py-4 text-white font-bold rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-1 active:scale-95 transition-all duration-300 transform"
+                  class="inline-flex items-center justify-center px-10 py-4 text-white font-bold rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-1 active:scale-95 transition-all duration-300 transform cursor-pointer"
                   style="background-color: #1d4ed8;"
                 >
                   Download CV
