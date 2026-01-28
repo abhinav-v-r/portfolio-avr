@@ -30,7 +30,10 @@ The portfolio uses [Tabler Icons](https://tabler.io/icons) for all icons.
 ```
 devportfolio/
 ├── public/
+|   ├── images/
+|   |   ├── hero.png         # Profile Image
 │   └── favicon.svg          # Site favicon
+│   └── resume.pdf           # Resume
 ├── src/
 │   ├── components/          # Astro components
 │   │   ├── About.astro      # About section
