@@ -68,7 +68,7 @@ export const siteConfig = {
       dateRange: "Feb 2026 - Present",
       bullets: [
         "Spearheaded the regional expansion of the μLearn footprint by identifying and establishing new campus chapters across the district",
-        "Coordinated "Mutate" μLearn Campus Lead Meet, facilitating strategic planning sessions and leadership training for campus leads to synchronize regional goals and community standards.",
+        "Coordinated Mutate - μLearn Campus Lead Meet, facilitating strategic planning sessions and leadership training for campus leads to synchronize regional goals and community standards.",
       ],
     },
     {
