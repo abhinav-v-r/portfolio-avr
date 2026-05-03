@@ -63,6 +63,15 @@ export const siteConfig = {
       ],
     },
     {
+      company: "μLearn Foundation",
+      title: "District Lead",
+      dateRange: "Feb 2026 - Present",
+      bullets: [
+        "Spearheaded the regional expansion of the μLearn footprint by identifying and establishing new campus chapters across the district",
+        "Coordinated "Mutate" μLearn Campus Lead Meet, facilitating strategic planning sessions and leadership training for campus leads to synchronize regional goals and community standards.",
+      ],
+    },
+    {
       company: "TinkerHub",
       title: "Learning Coordinator",
       dateRange: "Jul 2025 - Present",
@@ -72,7 +81,7 @@ export const siteConfig = {
       ],
     },
     {
-      company: "μLearn",
+      company: "μLearn NSS",
       title: "Campus Lead",
       dateRange: "Aug 2025 - Present",
       bullets: [
