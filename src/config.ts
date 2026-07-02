@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Abhinav V R",
-  title: "Computer Science Engineering Sophomore",
+  title: "Computer Science Engineering Junior",
   description: "Portfolio website of Abhinav V R",
   accentColor: "#1d4ed8",
   social: {
@@ -23,6 +23,13 @@ export const siteConfig = {
       skills: ["AI/ML", "Deep Learning", "Python", "TensorFlow"],
     },
     {
+      name: "Malware Analyst AI",
+      description:
+        "AI-powered malware analysis assistant for analyzing files, URLs, and text. Detects threats, extracts IOCs, explains malicious behavior, assesses risk, and generates detailed cybersecurity reports.",
+      link: "https://github.com/abhinav-v-r/malware-analyst-ai",
+      skills: ["Artificial Intelligence", "Generative AI", "CyberSecurity"],
+    },
+        {
       name: "Kaaval AI - Cyber Fraud Prevention and Digital Safety Application",
       description:
         "An all-in-one AI-powered digital safety ecosystem designed to protect, educate, and empower users in the digital age, combiningreal-time threat detection with interactive learning to build long-term digital resilience.",
@@ -116,7 +123,7 @@ export const siteConfig = {
       degree: "B.Tech Computer Science and Engineering",
       dateRange: "2024-Present",
       achievements: [
-        "CGPA: 9.98",
+        "CGPA: 9.86",
         "Leading student communities and college clubs",
         "Hackathon Winner | Student Expo Winner | Idea Pitching Winner",
       ],
